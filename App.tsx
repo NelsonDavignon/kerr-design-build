@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
 import { CLIENT_CONFIG } from './constants';
 import { SlideIndex } from './types';
-import Slide1 from './slides/Slide1_Problem';
+import Slide1_problem from './slides/Slide1_Problem';
 import Slide2_Solution from './Slide2_Solution';
 import Slide3_ROI from './Slide3_ROI';
 import Slide_Possibilities from './Slide_Possibilities';
