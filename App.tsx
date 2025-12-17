@@ -3,11 +3,11 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
 import { CLIENT_CONFIG } from './constants';
 import { SlideIndex } from './types';
-import Slide1 from './components/slides/Slide1_Problem';
-import Slide2_Solution from './components/Slide2_Solution';
-import Slide3_ROI from './components/Slide3_ROI';
-import Slide_Possibilities from './components/Slide_Possibilities';
-import Slide4_Offer from './components/Slide4_Offer';
+import Slide1 from './slides/Slide1_Problem';
+import Slide2_Solution from './Slide2_Solution';
+import Slide3_ROI from './Slide3_ROI';
+import Slide_Possibilities from './Slide_Possibilities';
+import Slide4_Offer from './Slide4_Offer';
 
 function App() {
   const [currentSlide, setCurrentSlide] = useState(SlideIndex.PROBLEM);
